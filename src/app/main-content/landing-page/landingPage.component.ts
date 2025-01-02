@@ -9,16 +9,16 @@ import { NavbarComponent } from "./navbar/navbar.component";
     imports: [CommonModule, NavbarComponent],
     template: `
     <section>
-    <app-navbar></app-navbar>    
+   <div><app-navbar></app-navbar></div>  
     <h1 class="rosario-font">SAKURA RAMEN</h1>
     <h2>BEST RAMEN IN TOWN</h2>
     </section>
     `,
-    styleUrls:['./landingPage.component.scss']
+    styleUrls: ['./landingPage.component.scss']
 
 })
 
-export class LandingPageComponent{
+export class LandingPageComponent {
 
 
 }

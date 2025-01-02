@@ -1,6 +1,9 @@
 * {
-  margin: 0;
+
+  padding: 0;
+
 }
+
 
 .rosario-font {
   font-family: 'Rosario';
@@ -115,3 +118,6 @@
   src: url("./assets/fonts/rosario-v31-latin-700italic.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+
+
