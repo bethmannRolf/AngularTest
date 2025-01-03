@@ -1,27 +1,25 @@
-div{
- 
-background-color: #0A141E;
-height: 144px;
-display: flex;
-justify-content: space-around;
-align-items: center;
+div {
 
->img{
-    height: 44px;
+    background-color: #0A141E;
+    height: 144px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-}
+    >img {
+        height: 44px;
 
->div{
-display: flex;
-gap: 16px;
+    }
 
-    >img{
-        width: 40px;
-        height: 40px;
+    a{
+        text-decoration: none;
+        color: white;
+       
         &:hover{
-            cursor: pointer;
             scale: 105%;
+            cursor: pointer;
         }
     }
-}
+
+    
 }
